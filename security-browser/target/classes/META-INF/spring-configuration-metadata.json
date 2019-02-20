@@ -16,8 +16,23 @@
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.c-s-s-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "name": "spring.thymeleaf.cache-t-t-l-ms",
       "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.cache-t-t-l-ms",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.cacheable",
+      "type": "java.lang.Boolean"
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
@@ -31,8 +46,23 @@
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.cacheable-patterns",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "name": "spring.thymeleaf.character-encoding",
       "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.character-encoding",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.check-existence",
+      "type": "java.lang.Boolean"
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
@@ -46,8 +76,23 @@
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.force-suffix",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "name": "spring.thymeleaf.force-template-mode",
       "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.force-template-mode",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.html-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>"
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
@@ -63,8 +108,27 @@
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "deprecated": true,
+      "name": "spring.thymeleaf.html5-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "name": "spring.thymeleaf.java-script-template-mode-patterns",
       "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.java-script-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "deprecated": true,
+      "name": "spring.thymeleaf.legacy-html5-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "deprecation": {}
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
@@ -80,8 +144,23 @@
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "name": "spring.thymeleaf.non-cacheable-patterns",
       "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.non-cacheable-patterns",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.order",
+      "type": "java.lang.Integer"
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
@@ -95,7 +174,22 @@
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "name": "spring.thymeleaf.raw-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.raw-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.resolvable-patterns",
       "type": "java.util.Set<java.lang.String>"
     },
     {
@@ -110,8 +204,23 @@
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.suffix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "name": "spring.thymeleaf.template-aliases",
       "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.template-aliases",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.template-mode",
+      "type": "org.thymeleaf.templatemode.TemplateMode"
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
@@ -125,8 +234,25 @@
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.text-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "name": "spring.thymeleaf.use-decoupled-logic",
       "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.use-decoupled-logic",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "deprecated": true,
+      "name": "spring.thymeleaf.valid-xhtml-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "deprecation": {}
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
@@ -145,9 +271,28 @@
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
       "deprecated": true,
+      "name": "spring.thymeleaf.valid-xml-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "deprecated": true,
       "name": "spring.thymeleaf.xhtml-template-mode-patterns",
       "type": "java.util.Set<java.lang.String>",
       "deprecation": {}
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "deprecated": true,
+      "name": "spring.thymeleaf.xhtml-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
+      "name": "spring.thymeleaf.xml-template-mode-patterns",
+      "type": "java.util.Set<java.lang.String>"
     },
     {
       "sourceType": "org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver",
