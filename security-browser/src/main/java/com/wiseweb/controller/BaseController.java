@@ -21,10 +21,11 @@ import java.util.Map;
 public class BaseController {
     @Autowired
     private UserService userService;
-    //登陆页
-    @RequestMapping("/login")
+
+    //登陆页,默认无权限时跳转的页面
+    @RequestMapping(SecurityProperties.DEFAULT_LOGIN_URL)
     public String login(){
-        return "login";
+        return "base/login";
     }
 
     @RequestMapping("/getUser")
@@ -41,8 +42,11 @@ public class BaseController {
         userService.addUser(user);
         return true;
     }
+
+
+
     //主页
-    @RequestMapping("/index")
+    @RequestMapping("/")
     public String index(Model model){
         model.addAttribute("name","吴猛");
         return "pages/index";
