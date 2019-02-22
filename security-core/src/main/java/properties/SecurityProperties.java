@@ -14,5 +14,12 @@ public interface SecurityProperties {
      */
     public static final String DEFAULT_LOGIN_FORM = "/login";
 
+    /**
+     * 页面静态资源位置
+     */
     public static final String GLOBAL_SOURCES = "/static/**";
+    /**
+     * 主页请求不拦截
+     */
+    public static final String DEFAULT_INDEX_PAGE = "/index";
 }
