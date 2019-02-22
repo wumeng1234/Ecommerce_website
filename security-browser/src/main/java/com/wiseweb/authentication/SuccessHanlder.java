@@ -6,7 +6,7 @@ import org.springframework.security.web.DefaultRedirectStrategy;
 import org.springframework.security.web.RedirectStrategy;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
-import properties.SecurityProperties;
+import com.wiseweb.properties.SecurityProperties;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

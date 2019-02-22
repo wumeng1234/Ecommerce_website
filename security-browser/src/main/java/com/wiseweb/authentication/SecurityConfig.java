@@ -11,7 +11,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import properties.SecurityProperties;
+import com.wiseweb.properties.SecurityProperties;
 /**
  * Created by 吴猛
  * Date:2019/2/21
